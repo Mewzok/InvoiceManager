@@ -10,9 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.Serializable;
-
-public class Broker extends Logistic implements Serializable {
+public class Broker extends Logistic {
     protected String email;
     protected String brokerName;
     protected String poNumber;

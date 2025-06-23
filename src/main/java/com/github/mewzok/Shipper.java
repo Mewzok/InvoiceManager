@@ -10,9 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.Serializable;
-
-public class Shipper extends Transport implements Serializable {
+public class Shipper extends Transport {
     protected String confirmationNumber;
 
     public Shipper() {

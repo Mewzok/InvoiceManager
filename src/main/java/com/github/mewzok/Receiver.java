@@ -10,9 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.Serializable;
-
-public class Receiver extends Transport implements Serializable {
+public class Receiver extends Transport  {
     protected String pickupNumber;
 
     public Receiver() {
