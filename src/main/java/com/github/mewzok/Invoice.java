@@ -182,7 +182,7 @@ public class Invoice implements Serializable {
     }
 
     public void setDispatchCostPercent(String dispatchCost) {
-        this.dispatchCostPercent = dispatchCostPercent;
+        //this.dispatchCostPercent = dispatchCostPercent;
     }
 
     public void setDispatchPay(String dispatchPay) {this.dispatchPay = dispatchPay; }
