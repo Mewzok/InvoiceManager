@@ -37,7 +37,7 @@ public class InvoiceStorage {
 
     // load invoices from file
     public static ArrayList<Invoice> loadInvoices(YearMonth ym) {
-        String filename = "invoices_" + ym.getYear() + "_" + String.format("%02d", ym.getMonth()) + ".dat";
+        String filename = "invoices_" + ym.getYear() + "_" + String.format("%02d", ym.getMonthValue()) + ".dat";
         File file = new File(filename);
         if (!file.exists())
             return new ArrayList<Invoice>();
